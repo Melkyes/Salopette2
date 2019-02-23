@@ -1,1 +1,1 @@
-{"token": process.env.token,"serverName":"salopette","defaultPrefix":"*","id":"518497375728304128"}
+{"token": token,"serverName":"salopette","defaultPrefix":"*","id":"518497375728304128"}
