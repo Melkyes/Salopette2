@@ -1,1 +1,1 @@
-{"token":"NTQ1MTgzMjYwNDk4NDYwNjcy.D06zPQ.jOJOSgheiuI0rVY_6olAIvqEm4o","serverName":"salopette","defaultPrefix":"*","id":"518497375728304128"}
+{"token": process.env.token,"serverName":"salopette","defaultPrefix":"*","id":"518497375728304128"}
