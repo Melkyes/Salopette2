@@ -138,7 +138,7 @@ client.on('message', message => {
 
 client.on('message', message => {
   var args = message.content.toLowerCase().substring(PREFIX.length)
-  let adminRole = message.guild.roles.find("id", "548136198695157760" && "518497375728304128" && "544203614269341727" && "452561749720170499" && "459634323415498762" && "548143174816759819") && message.author.names.find("id", "327731712215744514")
+  let adminRole = message.guild.roles.find("id", "548136198695157760" && "548268339441696769" && "518497375728304128" && "544203614269341727" && "452561749720170499" && "459634323415498762" && "548143174816759819") && message.author.names.find("id", "327731712215744514")
   if (args.startsWith("purge")) {
     purgeCommand(message, adminRole, PREFIX, args)
   }
