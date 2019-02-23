@@ -47,7 +47,7 @@ client.on('message', message => {
 function purgeCommand(message, adminRole, prefix, args) {
   async function purge(){
     let amount = parseInt(args.substring(6))
-
+    .catch()
     if (amount == undefined) {
       message.channel.send(`:x: S'il vous plait, donnez une valeur. Usage : \'*purge <amount>\'`)
       return
