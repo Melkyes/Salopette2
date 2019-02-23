@@ -14,8 +14,8 @@ client.on('ready', () => {
   console.log(`Connecté en tant que : ${client.user.tag}!`);
   client.user.setPresence({
         game: {
-            name: ' *help',
-            type: 'Utilisé'
+            name: ' utilisé *help',
+            type: '0'
         }
     });
 });
