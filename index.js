@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 const CONFIG = require("./storage/config.json");
 const PREFIX = CONFIG.defaultPrefix;
-const TOKEN = CONFIG.TOKEN;
+const TOKEN = CONFIG.token;
 const SERVERNAME = CONFIG.serverName;
 const helppage = new Discord.RichEmbed()
   .setColor('#275BF0')
