@@ -161,4 +161,4 @@ client.on('message', message => {
 });
 
 
-client.login(process.env.POLOLO);
+client.login(process.env.token);
